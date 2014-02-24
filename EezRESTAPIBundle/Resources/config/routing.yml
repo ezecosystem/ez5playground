@@ -1,0 +1,12 @@
+# the main route we expose
+eezrestapi_get_content:
+    pattern:  /getContent/{locationId}/{viewName}
+    defaults: { _controller: eezrestapi.controller.rest:getContent, view: "Full" }
+
+# an example "courtesy url"
+#eezrestapi_get_lexique:
+#    pattern:  /getLexique
+#    defaults: {
+#        _controller: eezrestapi.controller.rest:testObject,
+#        locationId: 67,
+#        view: "lexique" }

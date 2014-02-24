@@ -1,0 +1,13 @@
+services:
+
+    eezrestapi.controller.rest:
+        class: GGGeek\eZ5Playground\EezRESTAPIBundle\Controller\DefaultController
+        parent: ezpublish_rest.controller.base
+
+    # This is how a custom class can be registered to be used by this service as view.
+    # It should implement the ViewInterface
+    # The 'alias' is the view is named in urls and routing
+    eezrestapi.view.full:
+        class: GGGeek\eZ5Playground\EezRESTAPIBundle\Rest\Views\Full
+        tags:
+            -  { name: gggeek_eezrestapi.view, alias: full }

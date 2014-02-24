@@ -1,0 +1,8 @@
+parameters:
+    eezrestapi.prefix: /api/eezrest/V1
+
+    # number of child items per page. THe offset can be specified in the query string
+    eezrestapi.max_children_per_page: 10
+
+    # the standard cache-expiration rules apply for content editing. Unless your views change, this can be set high
+    eezrestapi.cache_ttl: 300
