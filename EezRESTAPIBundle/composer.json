@@ -1,0 +1,20 @@
+{
+  "name": "gggeek/ez5-eezrestapiundle",
+  "type": "symfony-bundle",
+  "description": "An extension for eZPublish 5, implementing a REST-ish, extra-simple-to-use API",
+  "homepage": "https://github.com/gggeek/ez5playground",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Gaetano Giunta",
+      "email": "giunta.gaetano@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "psr-0": { "GGGeek\eZ5Playground\EezRESTAPIBundle": "" }
+  },
+  "target-dir": "GGGeek/eZ5Playground/EezRESTAPIBundle"
+}

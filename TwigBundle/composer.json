@@ -1,0 +1,20 @@
+{
+  "name": "gggeek/ez5-twigbundle",
+  "type": "symfony-bundle",
+  "description": "A simple extension which overloads the standard "ez_render_field" twig operator to make it easier to create flexible templates",
+  "homepage": "https://github.com/gggeek/ez5playground",
+  "license": "GPL-2.0",
+  "authors": [
+    {
+      "name": "Gaetano Giunta",
+      "email": "giunta.gaetano@gmail.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "psr-0": { "GGGeek\eZ5Playground\TwigBundle": "" }
+  },
+  "target-dir": "GGGeek/eZ5Playground/TwigBundle"
+}
