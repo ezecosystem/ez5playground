@@ -1,0 +1,3 @@
+parameters:
+    # we override the class implementing the twig helpers in order to extend them
+    ezpublish.twig.extension.content.class: GGGeek\eZ5Playground\TwigBundle\Twig\ContentExtension
