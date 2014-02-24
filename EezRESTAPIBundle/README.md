@@ -45,9 +45,9 @@ How to use the bundle
 - install it and activate it (load it in your appkernel php file)
 - import the bundle routes: in ezpublish/routing.yml, add:
 
-    EezRESTAPIBundle_rest_routes:
-        resource: "@GGGeekEZ5EezRESTAPIBundle/Resources/config/routing.yml"
-        prefix:   %eezrestapi.prefix%
+      EezRESTAPIBundle_rest_routes:
+          resource: "@GGGeekEZ5EezRESTAPIBundle/Resources/config/routing.yml"
+          prefix:   %eezrestapi.prefix%
 
 - if not in dev mode, clear Symfony caches
 - head on to /api/eezrest/V1/getContent/2/full
